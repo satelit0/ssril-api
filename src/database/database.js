@@ -1,10 +1,11 @@
 const mysql = require('mysql2');
 
 const mysqlConnection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'p@ssw0rd',
+  host: 'ssril-test-do-user-12363684-0.b.db.ondigitalocean.com',
+  user: 'ssril',
+  password: 'AVNS_B8qB9VInTKWsJ5Y3J9W',
   database: 'ssril',
+  port: 25060,
   multipleStatements: true
 });
 

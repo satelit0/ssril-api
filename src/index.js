@@ -1,5 +1,5 @@
 const express = require('express');
-const morgan = require('morgan');
+// const morgan = require('morgan');
 const routes = require('./routes/index');
 const cors = require('cors');
 const app = express();
@@ -15,7 +15,7 @@ app.use(express.json());
 // Routes
 app.use('/api', routes);
 
-app.use(morgan('dev'))
+// app.use(morgan('dev'))
 
 // app.get('/', (req, res) =>{
 //   res.status(200).send('ok..');
